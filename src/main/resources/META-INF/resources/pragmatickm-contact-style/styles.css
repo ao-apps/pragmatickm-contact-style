@@ -20,12 +20,11 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses/>.
  */
+span.pragmatickm-contact-contact-link,
 a.pragmatickm-contact-contact-link {
 	display: inline-block;
 	background-repeat: no-repeat;
 	background-position: left center;
-}
-a.pragmatickm-contact-contact-link {
 	padding-left: 25px;
 	min-height: 24px;
 	background-size: 24px 24px;
