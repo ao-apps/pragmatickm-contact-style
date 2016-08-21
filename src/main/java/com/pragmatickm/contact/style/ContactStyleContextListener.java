@@ -37,7 +37,9 @@ public class ContactStyleContextListener implements ServletContextListener {
 		// Add our CSS file
 		semanticCMS.addCssLink("/pragmatickm-contact-style/styles.css");
 		// Add link CSS class
-		semanticCMS.addLinkCssClass(Contact.class, "pragmatickm-contact-contact-link");
+		semanticCMS.addLinkCssClass(Contact.class, "pragmatickm-contact-link");
+		// Add list item CSS class
+		semanticCMS.addListItemCssClass(Contact.class, "pragmatickm-contact-list-item");
 	}
 
 	@Override

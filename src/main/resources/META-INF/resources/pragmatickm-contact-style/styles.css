@@ -20,8 +20,8 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses/>.
  */
-span.pragmatickm-contact-contact-link,
-a.pragmatickm-contact-contact-link {
+span.pragmatickm-contact-link,
+a.pragmatickm-contact-link {
 	display: inline-block;
 	background-repeat: no-repeat;
 	background-position: left center;
@@ -30,4 +30,8 @@ a.pragmatickm-contact-contact-link {
 	background-size: 24px 24px;
 	/* TODO: Find properly licensed images and include them in this styles package */
 	background-image: url(../images/contact.png);
+}
+li.pragmatickm-contact-list-item {
+	/* TODO: Find properly licensed images and include them in this styles package */
+	list-style-image: url('../images/list-item/16x16/contact.png');
 }
