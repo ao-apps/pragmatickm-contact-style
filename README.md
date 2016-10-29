@@ -3,6 +3,7 @@ Default style for contacts nested within [SemanticCMS](https://semanticcms.com/)
 
 ## Project Links
 * [Project Home](https://pragmatickm.com/contact/style/)
+* [Changelog](https://pragmatickm.com/contact/style/changelog)
 * [API Docs](https://pragmatickm.com/contact/style/apidocs/)
 * [Maven Repository](scpexe://private.cvs.aoindustries.com/var/maven2/pragmatickm)
 * [Git](ssh://private.cvs.aoindustries.com/var/git/pragmatickm-contact-style)
