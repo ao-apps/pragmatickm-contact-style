@@ -37,7 +37,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T18:33:44-0500"
-		dateModified="2017-07-26T13:36:42-0500"
+		dateModified="2017-07-26T14:11:50-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-contact-style:pom.version}" />
@@ -66,6 +66,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 			datePublished="2017-07-20T18:58:55-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
@@ -80,11 +81,12 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 			datePublished="2016-11-16T22:18:39-0600"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
 				<li>New <ao:a href="https://aoindustries.com/ao-oss-parent/">AO OSS Parent</ao:a> POM to simplify <code>pom.xml</code> files.</li>
-				<li>Project documentation moved to per-project book in <core:link book="/" page="/index.jspx" /> format.</li>
+				<li>Project documentation moved to per-project book in <ao:a href="https://semanticcms.com/">SemanticCMS</ao:a> format.</li>
 				<li>Added changelog as top-level project link.</li>
 			</ul>
 		</changelog:release>
@@ -95,6 +97,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 			datePublished="2016-10-20T20:25:43-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
@@ -109,6 +112,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 			datePublished="2016-10-04T23:55:45-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
@@ -123,6 +127,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 			datePublished="2016-09-11T17:43:39-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
@@ -137,6 +142,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 			datePublished="2016-09-03T11:30:14-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
@@ -151,6 +157,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 			datePublished="2016-08-30T17:30:06-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
