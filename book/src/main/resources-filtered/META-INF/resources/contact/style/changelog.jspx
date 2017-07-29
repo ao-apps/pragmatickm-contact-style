@@ -37,7 +37,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T18:33:44-0500"
-		dateModified="2017-07-27T00:59:53-0500"
+		dateModified="2017-07-29T09:39:10-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-contact-style:pom.version}" />
@@ -52,7 +52,12 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			/>
+			>
+				<ul>
+					<li>New version of <ao:a href="https://semanticcms.com/core/servlet/">SemanticCMS Core Servlet</ao:a>.</li>
+					<li>New version of <core:link book="/contact/model" page="/index.jspx" />.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
