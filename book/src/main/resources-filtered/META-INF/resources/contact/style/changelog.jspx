@@ -52,12 +52,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			>
-				<ul>
-					<li>New version of <ao:a href="https://semanticcms.com/core/servlet/">SemanticCMS Core Servlet</ao:a>.</li>
-					<li>New version of <core:link book="/contact/model" page="/index.jspx" />.</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
 
 		<changelog:release
