@@ -1,6 +1,6 @@
 /*
  * pragmatickm-contact-style - Default style for contacts nested within SemanticCMS pages and elements.
- * Copyright (C) 2016  AO Industries, Inc.
+ * Copyright (C) 2016, 2017  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -23,23 +23,23 @@
 package com.pragmatickm.contact.style;
 
 import com.pragmatickm.contact.model.Contact;
-import com.semanticcms.core.servlet.SemanticCMS;
+import com.semanticcms.core.renderer.html.HtmlRenderer;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
-@WebListener("Registers the styles for contacts in SemanticCMS.")
+@WebListener("Registers the styles for contacts in HtmlRenderer.")
 public class ContactStyleContextListener implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent event) {
-		SemanticCMS semanticCMS = SemanticCMS.getInstance(event.getServletContext());
+		HtmlRenderer htmlRenderer = HtmlRenderer.getInstance(event.getServletContext());
 		// Add our CSS file
-		semanticCMS.addCssLink("/pragmatickm-contact-style/styles.css");
+		htmlRenderer.addCssLink("/pragmatickm-contact-style/styles.css");
 		// Add link CSS class
-		semanticCMS.addLinkCssClass(Contact.class, "pragmatickm-contact-link");
+		htmlRenderer.addLinkCssClass(Contact.class, "pragmatickm-contact-link");
 		// Add list item CSS class
-		semanticCMS.addListItemCssClass(Contact.class, "pragmatickm-contact-list-item");
+		htmlRenderer.addListItemCssClass(Contact.class, "pragmatickm-contact-list-item");
 	}
 
 	@Override
