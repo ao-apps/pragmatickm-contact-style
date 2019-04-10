@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 pragmatickm-contact-style - Default style for contacts nested within SemanticCMS pages and elements.
-Copyright (C) 2017  AO Industries, Inc.
+Copyright (C) 2017, 2019  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -42,7 +42,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 		<documented.artifactId>pragmatickm-contact-style</documented.artifactId>
 		<documented.javaVersion>1.6</documented.javaVersion>
 		<documented.javac.link.javaApi>${javac.link.javaApi.jdk16}</documented.javac.link.javaApi>
-		<documented.name>PragmaticKM Contact Style</documented.name>
+		<documented.name>PragmaticKM 1 Contact Style</documented.name>
 		<documented.shortTitle>Style</documented.shortTitle>
 		<documented.url>https://pragmatickm.com/contact/style/</documented.url>
 		<documented.description>Default style for contacts nested within SemanticCMS pages and elements.</documented.description>
