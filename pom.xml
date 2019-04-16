@@ -40,7 +40,7 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 		<description.html><![CDATA[Default style for contacts nested within <a target="_top" href="https://semanticcms.com/">SemanticCMS</a> pages and elements.]]></description.html>
 	</properties>
 
-	<name>PragmaticKM 1 Contact Style</name>
+	<name>PragmaticKM Contact Style</name>
 	<url>https://pragmatickm.com/contact/style/</url>
 	<description>Default style for contacts nested within SemanticCMS pages and elements.</description>
 	<inceptionYear>2013</inceptionYear>
