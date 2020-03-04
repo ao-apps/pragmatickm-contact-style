@@ -22,20 +22,28 @@
  */
 package com.pragmatickm.contact.style;
 
+import com.aoindustries.web.resources.registry.Style;
+import com.aoindustries.web.resources.servlet.RegistryEE;
 import com.pragmatickm.contact.model.Contact;
 import com.semanticcms.core.renderer.html.HtmlRenderer;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
-@WebListener("Registers the styles for contacts in HtmlRenderer.")
-public class Initializer implements ServletContextListener {
+@WebListener("Registers the styles for contacts in RegistryEE and HtmlRenderer.")
+public class ContactStyle implements ServletContextListener {
+
+	public static final Style PRAGMATICKM_CONTACT = new Style("/pragmatickm-contact-style/pragmatickm-contact.css");
 
 	@Override
 	public void contextInitialized(ServletContextEvent event) {
-		HtmlRenderer htmlRenderer = HtmlRenderer.getInstance(event.getServletContext());
+		ServletContext servletContext = event.getServletContext();
+
 		// Add our CSS file
-		htmlRenderer.addCssLink("/pragmatickm-contact-style/pragmatickm-contact.css");
+		RegistryEE.get(servletContext).global.styles.add(PRAGMATICKM_CONTACT);
+
+		HtmlRenderer htmlRenderer = HtmlRenderer.getInstance(servletContext);
 		// Add link CSS class
 		htmlRenderer.addLinkCssClass(Contact.class, "pragmatickm-contact-link");
 		// Add list item CSS class
