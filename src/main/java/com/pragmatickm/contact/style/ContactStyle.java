@@ -22,6 +22,7 @@
  */
 package com.pragmatickm.contact.style;
 
+import com.aoindustries.web.resources.registry.Group;
 import com.aoindustries.web.resources.registry.Style;
 import com.aoindustries.web.resources.servlet.RegistryEE;
 import com.pragmatickm.contact.model.Contact;
@@ -34,6 +35,9 @@ import javax.servlet.annotation.WebListener;
 @WebListener("Registers the styles for contacts in RegistryEE and HtmlRenderer.")
 public class ContactStyle implements ServletContextListener {
 
+	public static final Group.Name RESOURCE_GROUP = new Group.Name("pragmatickm-contact-style");
+
+	// TODO: Change to Group.Name once we have group-level ordering
 	public static final Style PRAGMATICKM_CONTACT = new Style("/pragmatickm-contact-style/pragmatickm-contact.css");
 
 	@Override
@@ -41,7 +45,11 @@ public class ContactStyle implements ServletContextListener {
 		ServletContext servletContext = event.getServletContext();
 
 		// Add our CSS file
-		RegistryEE.get(servletContext).global.styles.add(PRAGMATICKM_CONTACT);
+		RegistryEE.Application.get(servletContext)
+			.activate(RESOURCE_GROUP) // TODO: Activate as-needed
+			.getGroup(RESOURCE_GROUP)
+			.styles
+			.add(PRAGMATICKM_CONTACT);
 
 		HtmlRenderer htmlRenderer = HtmlRenderer.getInstance(servletContext);
 		// Add link CSS class
