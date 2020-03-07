@@ -35,8 +35,6 @@ along with pragmatickm-contact-style.  If not, see <http://www.gnu.org/licenses 
 	<properties>
 		<!-- These values are copied from the project being documented -->
 		<documented.artifactId>pragmatickm-contact-style</documented.artifactId>
-		<documented.javaVersion>1.8</documented.javaVersion>
-		<documented.javac.link.javaApi>${javac.link.javaApi.jdk8}</documented.javac.link.javaApi>
 		<documented.name>PragmaticKM Contact Style</documented.name>
 		<documented.shortTitle>Style</documented.shortTitle>
 		<documented.description>Default style for contacts nested within SemanticCMS pages and elements.</documented.description>
