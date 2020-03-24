@@ -30,7 +30,7 @@ Default style for contacts nested within [SemanticCMS](https://github.com/aoindu
 * [Project Home](https://pragmatickm.com/contact/style/)
 * [Changelog](https://pragmatickm.com/contact/style/changelog)
 * [API Docs](https://pragmatickm.com/contact/style/apidocs/)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.pragmatickm%22%20AND%20a:%22pragmatickm-contact-style%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.pragmatickm/pragmatickm-contact-style)
 * [GitHub](https://github.com/aoindustries/pragmatickm-contact-style)
 
 ## Contact Us
