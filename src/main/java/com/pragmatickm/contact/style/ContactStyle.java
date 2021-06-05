@@ -1,6 +1,6 @@
 /*
  * pragmatickm-contact-style - Default style for contacts nested within SemanticCMS pages and elements.
- * Copyright (C) 2016, 2017, 2020  AO Industries, Inc.
+ * Copyright (C) 2016, 2017, 2020, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,9 +22,9 @@
  */
 package com.pragmatickm.contact.style;
 
-import com.aoindustries.web.resources.registry.Group;
-import com.aoindustries.web.resources.registry.Style;
-import com.aoindustries.web.resources.servlet.RegistryEE;
+import com.aoapps.web.resources.registry.Group;
+import com.aoapps.web.resources.registry.Style;
+import com.aoapps.web.resources.servlet.RegistryEE;
 import com.pragmatickm.contact.model.Contact;
 import com.semanticcms.core.renderer.html.HtmlRenderer;
 import javax.servlet.ServletContext;
