@@ -10,6 +10,12 @@
 
 [![Build](https://github.com/aoindustries/pragmatickm-contact-style/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/pragmatickm-contact-style/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-contact-style/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-contact-style)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-style&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.pragmatickm%3Apragmatickm-contact-style)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-style&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-contact-style&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-style&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-contact-style&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-style&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-contact-style&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-style&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-contact-style&metric=Maintainability)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-style&metric=coverage)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-contact-style&metric=Coverage)
 
 Default style for contacts nested within [SemanticCMS](https://github.com/aoindustries/semanticcms) pages and elements.
 
