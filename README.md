@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [PragmaticKM](https://github.com/aoindustries/pragmatickm) / [Contact](https://github.com/aoindustries/pragmatickm-contact) / [Style](https://github.com/aoindustries/pragmatickm-contact-style)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [PragmaticKM](https://github.com/ao-apps/pragmatickm) / [Contact](https://github.com/ao-apps/pragmatickm-contact) / [Style](https://github.com/ao-apps/pragmatickm-contact-style)
 
 [![project: current stable](https://pragmatickm.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
 [![management: production](https://pragmatickm.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
@@ -8,7 +8,7 @@
 [![semantic versioning: 2.0.0](https://pragmatickm.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://pragmatickm.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/aoindustries/pragmatickm-contact-style/workflows/Build/badge.svg?branch=1.x)](https://github.com/aoindustries/pragmatickm-contact-style/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/pragmatickm-contact-style/workflows/Build/badge.svg?branch=1.x)](https://github.com/ao-apps/pragmatickm-contact-style/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-contact-style/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-contact-style)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-contact-style&metric=alert_status)](https://sonarcloud.io/dashboard?branch=1.x&id=com.pragmatickm%3Apragmatickm-contact-style)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-contact-style&metric=ncloc)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-contact-style&metric=ncloc)  
@@ -17,14 +17,14 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-contact-style&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-contact-style&metric=Maintainability)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-contact-style&metric=coverage)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-contact-style&metric=Coverage)
 
-Default style for contacts nested within [SemanticCMS](https://github.com/aoindustries/semanticcms) pages and elements.
+Default style for contacts nested within [SemanticCMS](https://github.com/ao-apps/semanticcms) pages and elements.
 
 ## Project Links
 * [Project Home](https://pragmatickm.com/contact/style/)
 * [Changelog](https://pragmatickm.com/contact/style/changelog)
 * [API Docs](https://pragmatickm.com/contact/style/apidocs/)
 * [Maven Central Repository](https://search.maven.org/artifact/com.pragmatickm/pragmatickm-contact-style)
-* [GitHub](https://github.com/aoindustries/pragmatickm-contact-style)
+* [GitHub](https://github.com/ao-apps/pragmatickm-contact-style)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
