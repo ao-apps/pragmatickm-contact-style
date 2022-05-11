@@ -33,6 +33,9 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
+/**
+ * Registers the styles for contacts in {@link RegistryEE} and {@link SemanticCMS}.
+ */
 @WebListener("Registers the styles for contacts in RegistryEE and SemanticCMS.")
 public class ContactStyle implements ServletContextListener {
 
@@ -49,14 +52,14 @@ public class ContactStyle implements ServletContextListener {
     RegistryEE.Application.get(servletContext)
         .activate(RESOURCE_GROUP)// TODO: Activate as-needed
         .getGroup(RESOURCE_GROUP)
-        .styles
-        .add(PRAGMATICKM_CONTACT);
+            .styles
+            .add(PRAGMATICKM_CONTACT);
 
-    SemanticCMS semanticCMS = SemanticCMS.getInstance(servletContext);
+    SemanticCMS semanticCms = SemanticCMS.getInstance(servletContext);
     // Add link CSS class
-    semanticCMS.addLinkCssClass(Contact.class, "pragmatickm-contact-link");
+    semanticCms.addLinkCssClass(Contact.class, "pragmatickm-contact-link");
     // Add list item CSS class
-    semanticCMS.addListItemCssClass(Contact.class, "pragmatickm-contact-list-item");
+    semanticCms.addListItemCssClass(Contact.class, "pragmatickm-contact-list-item");
   }
 
   @Override
