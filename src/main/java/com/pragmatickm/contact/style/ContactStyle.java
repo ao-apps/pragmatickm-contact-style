@@ -33,6 +33,9 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
+/**
+ * Registers the styles for contacts in {@link RegistryEE} and {@link HtmlRenderer}.
+ */
 @WebListener("Registers the styles for contacts in RegistryEE and HtmlRenderer.")
 public class ContactStyle implements ServletContextListener {
 
@@ -49,8 +52,8 @@ public class ContactStyle implements ServletContextListener {
     RegistryEE.Application.get(servletContext)
         .activate(RESOURCE_GROUP)// TODO: Activate as-needed
         .getGroup(RESOURCE_GROUP)
-        .styles
-        .add(PRAGMATICKM_CONTACT);
+            .styles
+            .add(PRAGMATICKM_CONTACT);
 
     HtmlRenderer htmlRenderer = HtmlRenderer.getInstance(servletContext);
     // Add link CSS class
