@@ -46,7 +46,7 @@ along with pragmatickm-contact-style.  If not, see <https://www.gnu.org/licenses
     <sonar.coverage.exclusions>**.*</sonar.coverage.exclusions>
   </properties>
 
-  <name>PragmaticKM Contact Style²</name>
+  <name>PragmaticKM Contact Style</name>
   <url>https://pragmatickm.com/contact/style/</url>
   <description>Default style for contacts nested within SemanticCMS pages and elements.</description>
   <inceptionYear>2013</inceptionYear>
