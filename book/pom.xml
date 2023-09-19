@@ -41,6 +41,9 @@ along with pragmatickm-contact-style.  If not, see <https://www.gnu.org/licenses
     <documented.artifactId>pragmatickm-contact-style</documented.artifactId>
     <documented.name>PragmaticKM Contact Style</documented.name>
     <documented.description>Default style for contacts nested within SemanticCMS pages and elements.</documented.description>
+    <javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://pragmatickm.com/">PragmaticKM</a>
+/ <a target="${javadoc.target}" href="https://pragmatickm.com/contact/">Contact</a>
+/ <a target="${javadoc.target}" href="${project.url}">Style</a>]]></javadoc.breadcrumbs>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
     <!-- SonarQube -->
